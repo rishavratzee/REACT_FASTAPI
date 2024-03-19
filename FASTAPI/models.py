@@ -8,5 +8,5 @@ class Transaction(Base):
     amount = Column(Float)
     category = Column(String)
     description = Column(String)
-    is_income  =Column(Boolean)
+    is_income  = Column(Boolean)
     date = Column(String)
